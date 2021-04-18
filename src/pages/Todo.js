@@ -9,6 +9,7 @@ export function Todo() {
     return (
         <>
             {
+                // eslint-disable-next-line array-callback-return
                 todos.map((todo, idx) => {
                     <div key={idx}>
                         <p>{todo.title}</p>
